@@ -1,0 +1,34 @@
+@import url(/assets/css/destaques.css);
+@import url(/assets/css/populares.css);
+@import url(/assets/css/cabecalho.css);
+@import url(/assets/css/responsivo.css);
+
+.app {
+    background: #f1f1f1;
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto ;
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    padding: 0 2rem;
+}
+ 
+.conteudo {
+    grid-area: conteudo;
+    padding: 0 2rem;
+}
+
+.rodape {
+    grid-area: rodape;
+    text-align: center;
+    background: #ffffff;
+    padding: .5rem 0;
+    font-size: .75rem;
+}
