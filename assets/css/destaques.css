@@ -21,23 +21,23 @@
 }
 
 .destaques__principal {
-    background: url(/assets/img/fortnite.jpg) center / cover no-repeat;
+    background: url(../img/fortnite.jpg) center / cover no-repeat;
 }
 
 .destaques__secundario:nth-child(2) {
-    background: url(/assets/img/pubg.jpg) center / cover no-repeat;
+    background: url(../img/pubg.jpg) center / cover no-repeat;
 }
 
 .destaques__secundario:nth-child(3) {
-    background: url(/assets/img/slack.png) center / cover no-repeat;
+    background: url(../img/slack.png) center / cover no-repeat;
 }
 
 .destaques__secundario:nth-child(4) {
-    background: url(/assets/img/whatsapp.png) center / cover no-repeat;
+    background: url(../img/whatsapp.png) center / cover no-repeat;
 }
 
 .destaques__secundario:nth-child(5) {
-    background: url(/assets/img/cs-go.jpg) center / cover no-repeat;
+    background: url(../img/cs-go.jpg) center / cover no-repeat;
 }
 
 .destaques__categorias___lista {
